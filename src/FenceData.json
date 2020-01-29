@@ -1,0 +1,61 @@
+{
+    "peak": {
+        "name" : "Стандартный конек",
+        "src" : "peak.png",
+        "height": 0.3,
+        "weight": 5,
+        "price": 5.00
+    },
+    "base": {
+        "name" : "Стандартный цоколь",
+        "src" : "base1.jpg",
+        "height": 0.3,
+        "rotate": false,
+        "weight": 20,
+        "price": 10.20	       
+    },
+    "pillar": {
+        "name" : "Стандартный столб",
+        "src" : "pillar1.jpg",
+        "weight": 6,
+        "price": 25.00
+    },
+    "fence": [
+        {
+            "name": "Секция под кирпич",
+			"src": "fence2.png",
+			"height": 0.6,
+			"rotate": false,
+			"weight": 10,
+			"price": 12.01,
+			"marginBottom": 0
+        },
+		{
+			"name": "Секция под камень",
+			"src": "fence3.png",
+			"height": 0.4,
+			"rotate": false,
+			"weight": 10,
+			"price": 5.90,
+			"marginBottom": 0
+        },
+        {
+			"name": "Секция верхняя",
+			"src": "fence4.png",
+			"height": 0.4,
+			"rotate": false,
+			"weight": 10,
+			"price": 11.00,
+			"marginBottom": 0
+        },
+		{
+			"name": "Секция неровная",
+			"src": "fence5.png",
+			"height": 0.4,
+			"rotate": false,
+			"weight": 10,
+			"price": 11.00,
+			"marginBottom": -4
+		}        
+    ]
+}
